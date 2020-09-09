@@ -3,3 +3,6 @@ def divide(dividend, divisor):
     print(dividend / divisor)
   else:
     print("Nope")
+
+
+divide(dividend=15, divisor=3)
