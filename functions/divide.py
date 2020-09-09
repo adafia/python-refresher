@@ -1,8 +1,9 @@
 def divide(dividend, divisor):
   if divisor != 0:
-    print(dividend / divisor)
+    return dividend / divisor
   else:
-    print("Nope")
+    return "Nope"
 
 
-divide(dividend=15, divisor=3)
+result = divide(dividend=15, divisor=3)
+print(result)

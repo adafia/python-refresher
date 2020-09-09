@@ -1,6 +1,6 @@
-def add(x, y=8):
-  print(x + y)
+def add(x, y):
+  return x + y
 
-add(4)
-
+result = add(4, 5)
+print(result)
 # default parameters are always declared last
