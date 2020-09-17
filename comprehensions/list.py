@@ -10,6 +10,10 @@ for number in numbers:
 number_list = [1, 3, 5]
 double_list = [n * 2 for n in number_list]
 
+# Experimenting with sort and sorted
+number_list = [1, 3, 5].sort()
+double_list = sorted([n * 2 for n in number_list])
+
 
 # looping through a list of strings and appending elements that starts with "s" to another list using a regular for loop
 friends = ["Rolf", "Sam", "Samantha", "Saurabh", "Jen"]
